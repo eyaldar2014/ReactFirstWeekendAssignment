@@ -13,19 +13,9 @@ class GameContainer extends react.Component {
         super();
 
         this.state = {
-            // data: ''
+
         }
     }
-
-    //after mounting
-    // componentDidMount() {
-    //     console.log('[constructor]')
-    //
-    //     //is necessary if there is props
-    //     this.setState({
-    //         data: this.props
-    //     })
-    // }
 
 
     render() {
