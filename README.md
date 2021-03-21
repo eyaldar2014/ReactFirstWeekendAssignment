@@ -19,14 +19,14 @@ Game container (Main)
 - Game container
 - Game score&players board
 - Btn (exit, roll dice, bank)
-- Current score container
-- Current player & Current score Sign
+- Current player & Current score Sign (Utilities - sign)
 - Show Dice
 - display delay* message ( on 6/6)
 - display Win message (posibble different main component)
 
-Utilities*
+Utilities* 
 - btn
+- sign 
 
 ---
 ### Principles :
@@ -44,7 +44,7 @@ Utilities*
     
 ---
 
-##start
+###start
 - make sketch
 - setup all components, and basic presentation
 - game action functions

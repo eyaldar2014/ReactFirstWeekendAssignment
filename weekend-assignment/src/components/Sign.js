@@ -1,7 +1,6 @@
 import react from "react";
-import Sign from "./Sign";
 
-class GameHeadBoard extends react.Component {
+class Sign extends react.Component {
 
     constructor(props) {
         super();
@@ -11,7 +10,7 @@ class GameHeadBoard extends react.Component {
         }
     }
 
-    //after mounting
+    //before mounting
     componentWillMount() {
         console.log('[constructor]')
 
@@ -36,22 +35,16 @@ class GameHeadBoard extends react.Component {
     }
 
     render() {
-        console.log('[GameHeadBoard render]')
+        console.log('[Sign render]')
         console.log(this.state)
 
-        return <div className={"gameHeadBoard"}>
 
-            <Sign signValue={this.state.data.playerName} />
-
-            <div className={'totalScore'}> {this.state.data.totalScore} </div>
-
+        return <div className={'sign'}>
+            {this.state.data.signValue}
         </div>
-
-
-
     }
 
 }
 
 
-export default GameHeadBoard
+export default Sign

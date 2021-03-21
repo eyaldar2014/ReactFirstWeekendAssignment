@@ -8,6 +8,7 @@
 import react from "react";
 import './style.css'
 import Game from "./GameContainer";
+import Login from './LoginContainer'
 
 class Bg extends react.Component {
 
@@ -24,7 +25,7 @@ class Bg extends react.Component {
 
         return <>
             <Game/>
-
+            <Login/>
         </>
     }
 
